@@ -6,10 +6,7 @@ let
  system_packages = builtins.attrValues {
   inherit (pkgs) R;
 };
-  in
-  pkgs.mkShell {
-    buildInputs = [  rpkgs system_packages  ];
-      shellHook = ''
-
-'';
-  }
+in
+ pkgs.mkShell {
+  buildInputs = [  rpkgs system_packages  ];
+ }
