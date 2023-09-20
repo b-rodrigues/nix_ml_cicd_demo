@@ -104,11 +104,6 @@ list(
     fit(best_boost_wflow, data = training_set),
   ),
   
-  #tar_target(
-  #  show_lvl,
-  #  show_lvl(fit_boosted_trees),
-  #),
-  
   tar_target(
     boost_predictions_prob,
     predict(fit_boosted_trees,

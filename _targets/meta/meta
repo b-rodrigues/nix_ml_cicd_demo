@@ -1,28 +1,28 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-best_boost_wflow|stem|a39d9050b0361316|477079adb21aaaad|0cb734acd8063767|-1486109461||t19620.5068834021s|532270c918bb764c|4951|rds|local|vector|||0.006||
-best_boosted_trees_hyperparams|stem|f54a8b0ab06f35d4|ace9961c8c851e9a|facb253fc7895a7a|-9772582||t19620.5068831243s|f3963c450082b208|143|rds|local|vector|||0.034||
-best_boosted_trees_model|stem|9aa7e5f83069b6eb|f4b531bce567a88f|9d83438610c76df5|135430053||t19620.5068832632s|78a0904c4d1ae603|482|rds|local|vector|||0.006||
-boost_grid|stem|e964d06102f2b476|2b8cb903a04180e4|6d0922f340f276c4|766831254||t19620.5066752996s|334ec4c391c6746c|186|rds|local|vector|||0.186|parameters.model_spec was deprecated in tune 0.1.6.9003.ℹ Please use hardhatextract_parameter_set_dials instead.|
-boost_predictions_class|stem|3365d01e11b35330|4c5c4d5142e30cec|2c083a2dd93b6c53|-2085069038||t19620.5068971984s|79c4271c5bab933e|3632|rds|local|vector|||0.536|There are new levels in a factor Withoutpay, Neverworked. There are new levels in a factor 1st4th, Preschool. There are new levels in a factor MarriedAFspouse. There are new levels in a factor ArmedForces. There are new levels in a factor Otherrelative. There are new levels in a factor Other, AmerIndianEskimo. There are new levels in a factor Peru, Guatemala, DominicanRepublic, Ireland, Thailand, Haiti, PuertoRico, Vietnam, South, Columbia, Japan, India, Cambodia, Poland, Laos, England, Cuba, Taiwan, Italy, Canada, Portugal, Nicaragua, Honduras, Iran, Scotland, Jamaica, Ecuador, Yugoslavia, Hungary, Hong, Greece, TrinadadTobago, OutlyingUSGuamUSVIetc, France|
-boost_predictions_prob|stem|728e2d23ffed9da5|79d107f2091f78b5|2c083a2dd93b6c53|237961477||t19620.5069001151s|4a307cd9a6a6ad1f|133641|rds|local|vector|||0.206|There are new levels in a factor Withoutpay, Neverworked. There are new levels in a factor 1st4th, Preschool. There are new levels in a factor MarriedAFspouse. There are new levels in a factor ArmedForces. There are new levels in a factor Otherrelative. There are new levels in a factor Other, AmerIndianEskimo. There are new levels in a factor Peru, Guatemala, DominicanRepublic, Ireland, Thailand, Haiti, PuertoRico, Vietnam, South, Columbia, Japan, India, Cambodia, Poland, Laos, England, Cuba, Taiwan, Italy, Canada, Portugal, Nicaragua, Honduras, Iran, Scotland, Jamaica, Ecuador, Yugoslavia, Hungary, Hong, Greece, TrinadadTobago, OutlyingUSGuamUSVIetc, France|
-boost_wflow|stem|efae2b6029955cab|e7d5f5caeca26e4e|810e9b5ef420fe2b|-778805721||t19620.5066755311s|4630a334321279f1|4852|rds|local|vector|||0.004||
-boosted_trees_model|stem|a2a0ec0b191636b7|378cb682b5a4b449|ab6d3822375fc791|-1108733878||t19620.5066511329s|c4c272a184f75d8c|382|rds|local|vector|||2.868||
-conf_mat_boost|stem|447e5a0a33bd1442|025bdfb3807e1ab4|9e2c60b68b6e481f|-1374816125||t19620.5069021984s|9c4bb1876e1721ca|190|rds|local|vector|||0.004||
-datasets|stem|50dc1c3c404d23e2|ab779493457f430a|6529fbe2f930850c|244984721||t19620.5066715033s|ef52820813839551|207317|rds|local|vector|||1.638||
+best_boost_wflow|stem|a39d9050b0361316|477079adb21aaaad|0cb734acd8063767|-1486109461||t19620.5137633111s|532270c918bb764c|4951|rds|local|vector|||0.006||
+best_boosted_trees_hyperparams|stem|f54a8b0ab06f35d4|ace9961c8c851e9a|facb253fc7895a7a|-9772582||t19620.5137633111s|f3963c450082b208|143|rds|local|vector|||0.034||
+best_boosted_trees_model|stem|9aa7e5f83069b6eb|f4b531bce567a88f|9d83438610c76df5|135430053||t19620.5137633111s|78a0904c4d1ae603|482|rds|local|vector|||0.006||
+boost_grid|stem|e964d06102f2b476|2b8cb903a04180e4|6d0922f340f276c4|766831254||t19620.5137633111s|334ec4c391c6746c|186|rds|local|vector|||0.186|parameters.model_spec was deprecated in tune 0.1.6.9003.ℹ Please use hardhatextract_parameter_set_dials instead.|
+boost_predictions_class|stem|3365d01e11b35330|4c5c4d5142e30cec|2c083a2dd93b6c53|-2085069038||t19620.5137633111s|79c4271c5bab933e|3632|rds|local|vector|||0.536|There are new levels in a factor Withoutpay, Neverworked. There are new levels in a factor 1st4th, Preschool. There are new levels in a factor MarriedAFspouse. There are new levels in a factor ArmedForces. There are new levels in a factor Otherrelative. There are new levels in a factor Other, AmerIndianEskimo. There are new levels in a factor Peru, Guatemala, DominicanRepublic, Ireland, Thailand, Haiti, PuertoRico, Vietnam, South, Columbia, Japan, India, Cambodia, Poland, Laos, England, Cuba, Taiwan, Italy, Canada, Portugal, Nicaragua, Honduras, Iran, Scotland, Jamaica, Ecuador, Yugoslavia, Hungary, Hong, Greece, TrinadadTobago, OutlyingUSGuamUSVIetc, France|
+boost_predictions_prob|stem|728e2d23ffed9da5|79d107f2091f78b5|2c083a2dd93b6c53|237961477||t19620.5137633574s|4a307cd9a6a6ad1f|133641|rds|local|vector|||0.206|There are new levels in a factor Withoutpay, Neverworked. There are new levels in a factor 1st4th, Preschool. There are new levels in a factor MarriedAFspouse. There are new levels in a factor ArmedForces. There are new levels in a factor Otherrelative. There are new levels in a factor Other, AmerIndianEskimo. There are new levels in a factor Peru, Guatemala, DominicanRepublic, Ireland, Thailand, Haiti, PuertoRico, Vietnam, South, Columbia, Japan, India, Cambodia, Poland, Laos, England, Cuba, Taiwan, Italy, Canada, Portugal, Nicaragua, Honduras, Iran, Scotland, Jamaica, Ecuador, Yugoslavia, Hungary, Hong, Greece, TrinadadTobago, OutlyingUSGuamUSVIetc, France|
+boost_wflow|stem|efae2b6029955cab|e7d5f5caeca26e4e|810e9b5ef420fe2b|-778805721||t19620.5137633574s|4630a334321279f1|4852|rds|local|vector|||0.004||
+boosted_trees_model|stem|a2a0ec0b191636b7|378cb682b5a4b449|ab6d3822375fc791|-1108733878||t19620.5137633574s|c4c272a184f75d8c|382|rds|local|vector|||2.868||
+conf_mat_boost|stem|447e5a0a33bd1442|025bdfb3807e1ab4|9e2c60b68b6e481f|-1374816125||t19620.5137633574s|9c4bb1876e1721ca|190|rds|local|vector|||0.004||
+datasets|stem|50dc1c3c404d23e2|ab779493457f430a|6529fbe2f930850c|244984721||t19620.5137633574s|ef52820813839551|207317|rds|local|vector|||1.638||
 define_grid|function|ac3124d3d2273983|||||||||||||||
 define_model|function|b191c078178f0c9d|||||||||||||||
 define_wflow|function|da01a0b6652d1f2c|||||||||||||||
-fit_boosted_trees|stem|ae8f248dd4e19540|74a218f6f632f344|9eebfca54ec80dce|-973007215||t19620.5068909021s|174189f023563b21|111288|rds|local|vector|||0.613||
+fit_boosted_trees|stem|ae8f248dd4e19540|74a218f6f632f344|9eebfca54ec80dce|-973007215||t19620.5137633574s|174189f023563b21|111288|rds|local|vector|||0.613||
 get_data|function|09e2941d9038c22c|||||||||||||||
 get_predictions|function|423c67ffb2d48096|||||||||||||||
 preprocess|function|b66dd4127d14d2c2|||||||||||||||
-preprocessed|stem|b114f67a87bfdb16|7943c5b4fa6765e3|f1900f0a8d48d157|1312282340||t19620.5066730774s|1e7d7ca2eada2a84|4413|rds|local|vector|||0.015||
-roc_auc_boost|stem|616bd489d9395807|929e0ffe7c5513b5|b75096caac2defee|-584305547||t19620.5069021059s|9712f9cb4307e5f0|183|rds|local|vector|||0.018||
-roc_curve_boost|stem|09a746eefd540166|71e66f067a06a47a|f1a4e8e60b362061|1528085843||t19620.5069028466s|071fc9376d2659de|130297|rds|local|vector|||0.032||
+preprocessed|stem|b114f67a87bfdb16|7943c5b4fa6765e3|f1900f0a8d48d157|1312282340||t19620.5137633574s|1e7d7ca2eada2a84|4413|rds|local|vector|||0.015||
+roc_auc_boost|stem|616bd489d9395807|929e0ffe7c5513b5|b75096caac2defee|-584305547||t19620.5137633574s|9712f9cb4307e5f0|183|rds|local|vector|||0.018||
+roc_curve_boost|stem|09a746eefd540166|71e66f067a06a47a|f1a4e8e60b362061|1528085843||t19620.5137633574s|071fc9376d2659de|130297|rds|local|vector|||0.032||
 scripts|object|efec2e70d4788f72|||||||||||||||
 show_lvl|function|d1d19c3062982214|||||||||||||||
-testing_set|stem|e0c3fbb7aa0d2934|ab409bef302793c3|e11a71da12e844e1|-717899821||t19620.5066727996s|106efede2321a458|205140|rds|local|vector|||0||
-testing_set_and_preds|stem|cb6a9a8c712bd443|9ad8730ae57aeef1|b8444e1dccdb88f2|-470907285||t19620.5069018281s|fb77959be5b6dc5a|344969|rds|local|vector|||0.001||
-training_set|stem|14e8337be9a2aa8c|aea56166e7435b5f|e11a71da12e844e1|-123015249||t19620.5066715959s|57c3152f69551851|2500|rds|local|vector|||0||
-training_splits|stem|603460bcba53bc1a|b433cafab004c44e|b77c1de8ad25616f|1412968132||t19620.5066754385s|d90c93757969bf75|3744|rds|local|vector|||0.006||
-tuned_boosted_trees|stem|8882a633a52eb649|9cfdf4a015aade35|ca619863eb9cf457|-1570837||t19620.5068826614s|d266a601a4395182|7835|rds|local|vector|||17.887|The ... are not used in this function but one or more objects were passed|
+testing_set|stem|e0c3fbb7aa0d2934|ab409bef302793c3|e11a71da12e844e1|-717899821||t19620.5137634037s|106efede2321a458|205140|rds|local|vector|||0||
+testing_set_and_preds|stem|cb6a9a8c712bd443|9ad8730ae57aeef1|b8444e1dccdb88f2|-470907285||t19620.5137634037s|fb77959be5b6dc5a|344969|rds|local|vector|||0.001||
+training_set|stem|14e8337be9a2aa8c|aea56166e7435b5f|e11a71da12e844e1|-123015249||t19620.5137634037s|57c3152f69551851|2500|rds|local|vector|||0||
+training_splits|stem|603460bcba53bc1a|b433cafab004c44e|b77c1de8ad25616f|1412968132||t19620.5137634037s|d90c93757969bf75|3744|rds|local|vector|||0.006||
+tuned_boosted_trees|stem|8882a633a52eb649|9cfdf4a015aade35|ca619863eb9cf457|-1570837||t19620.5137634037s|d266a601a4395182|7835|rds|local|vector|||17.887|The ... are not used in this function but one or more objects were passed|
