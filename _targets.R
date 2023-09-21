@@ -49,7 +49,7 @@ list(
   
   tar_target(
     boosted_trees_model,
-    define_model(boost_tree,
+    define_model(rand_forest,
                  "randomForest",
                  "classification",
                  mtry = tune(),
