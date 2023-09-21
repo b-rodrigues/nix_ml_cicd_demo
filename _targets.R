@@ -49,12 +49,11 @@ list(
   
   tar_target(
     boosted_trees_model,
-    define_model(rand_forest,
-                 "randomForest",
+    define_model(logistic_reg,
+                 "glmnet",
                  "classification",
-                 mtry = tune(),
-                 tree = tune(),
-                 min_n = tune())
+                 penalty = tune(),
+                 mixture = tune())
   ),
   
   tar_target(
@@ -70,7 +69,7 @@ list(
     define_wflow(preprocessed,
                  boosted_trees_model)
   ),
-  
+ 
   tar_target(
     tuned_boosted_trees,
     tune_grid(boost_wflow,
@@ -85,12 +84,11 @@ list(
   
   tar_target(
     best_boosted_trees_model,
-    define_model(boost_tree,
-                 "xgboost",
+    define_model(logistic_reg,
+                 "glm",
                  "classification",
-                 mtry = best_boosted_trees_hyperparams$mtry,
-                 trees = best_boosted_trees_hyperparams$trees,
-                 tree_depth = best_boosted_trees_hyperparams$tree_depth)
+                 penalty = best_boosted_trees_hyperparams$penalty,
+                 mixture = best_boosted_trees_hyperparams$mixture)
   ),
   
   tar_target(
